@@ -18,3 +18,6 @@ def mysecondview(request):
 
     }
     return render(request, 'seconds.html', data)
+    
+def mysecondview(request):
+    return render(request, 'boot.html')
